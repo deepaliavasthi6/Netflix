@@ -1,0 +1,39 @@
+.nf-footer {
+  position: relative;
+  padding: 16px 24px 22px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.nf-footer-text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.nf-footer-name {
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff4b5c, #ffb347);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nf-footer-glow {
+  position: absolute;
+  inset-inline: 18%;
+  bottom: 8px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, #e50914, transparent);
+  transform-origin: center;
+  opacity: 0.8;
+}
+
